@@ -1,0 +1,106 @@
+{
+  "id": 5630742793027584,
+  "name": "root",
+  "measures": [],
+  "categories": [
+    {
+      "id": 6018584834736128,
+      "name": "Robot-1",
+      "measures": [],
+      "categories": [
+        {
+          "id": 6015251403243520,
+          "name": "analogic-values",
+          "measures": [
+            {
+              "id": 6287015995768832,
+              "name": "Temperature",
+              "dataType": "Float"
+            }
+          ],
+          "categories": []
+        },
+        {
+          "id": 4593286448676864,
+          "name": "binary-value",
+          "measures": [
+            {
+              "id": 5256415037882368,
+              "name": "Operating-status",
+              "dataType": "Boolean"
+            }
+          ],
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": 5508080122986496,
+      "name": "Robot-2",
+      "measures": [],
+      "categories": [
+        {
+          "id": 6010898520997888,
+          "name": "Analogic-values",
+          "measures": [
+            {
+              "id": 6070606753693696,
+              "name": "Pression",
+              "dataType": "Float"
+            },
+            {
+              "id": 5833506775105536,
+              "name": "Temperature",
+              "dataType": "Double"
+            }
+          ],
+          "categories": [
+            {
+              "id": 6162828828344320,
+              "name": "integer-values",
+              "measures": [
+                {
+                  "id": 4991488301727744,
+                  "name": "Piece-counter",
+                  "dataType": "Integer"
+                }
+              ],
+              "categories": []
+            }
+          ]
+        },
+        {
+          "id": 6178986897965056,
+          "name": "Binary-values",
+          "categories": [
+            {
+              "id": 6426696653733888,
+              "name": "defaults",
+              "measures": [
+                {
+                  "id": 5383500637143040,
+                  "name": "default-status",
+                  "dataType": "Boolean"
+                }
+              ],
+              "categories": []
+            }
+          ],
+          "measures": []
+        },
+        {
+          "id": 4710635315134464,
+          "name": "Consigns",
+          "measures": [
+            {
+              "id": 6627611130200064,
+              "name": "Temperature consign",
+              "dataType": "Float"
+            }
+          ],
+          "categories": []
+        }
+      ]
+    }
+  ]
+}
