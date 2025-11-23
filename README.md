@@ -1,55 +1,62 @@
 # Scorpio Recruitment Test – Java
 
-## 📌 Contexte
+## 📌 Context
 
-Ce projet est un test technique qui consiste à **gérer l’arbre de données d’un automate**.
-L’arbre est décrit dans un fichier JSON (`plcTree.json`) et est organisé en **catégories** (et sous-catégories) contenant des **mesures**.
+This project is a technical test that involves **managing the data tree of a PLC (programmable logic controller)**.
+The tree is described in a JSON file (`plcTree.json`) and is organized into **categories** (and sub-categories) containing **measurements**.
 
-## 📌 Objectifs du test
+---
 
-J’ai choisi la version **Java** (plutôt que TypeScript, language qui m'est inconnu).
-Les fonctionnalités demandées :
+## 📌 Test Objectives
 
-* Charger l’arbre depuis le fichier JSON (`loadPlcTree` dans `Plc.java`).
-* Rechercher des mesures par **nom** (`searchByName` dans `Category.java`).
-* Rechercher des mesures par **type** (`searchByDataType` dans `Category.java`).
-* Tester unitairement le code avec **JUnit**.
+I chose the **Java version** (instead of TypeScript, a language I am not familiar with).
+The required features are:
 
-## 📌 Implémentation
+* Load the tree from the JSON file (`loadPlcTree` in `Plc.java`).
+* Search measurements by **name** (`searchByName` in `Category.java`).
+* Search measurements by **data type** (`searchByDataType` in `Category.java`).
+* Write unit tests using **JUnit**.
 
-* J’ai utilisé **Jackson** (déjà présent dans le `pom.xml`) pour lire le JSON.
-* Le parcours de l’arbre est fait de manière **récursive (DFS)**.
-* Les résultats sont retournés sous forme de **List<String>**, ce qui facilite les tests et l’affichage.
-* J’ai écrit des **tests JUnit simples**
+---
 
-## 📌 Version
+## 📌 Implementation
 
-Java 17
-Apache Maven 3.9.11
+* I used **Jackson** (already included in `pom.xml`) to read the JSON file.
+* The tree traversal is implemented using a **recursive approach (DFS)**.
+* Results are returned as a **List<String>**, making them easier to test and display.
+* I wrote **simple JUnit tests**.
 
+---
 
-## 📌 Commandes utiles
+## 📌 Versions
 
-* Installer les dépendances :
+* Java 17
+* Apache Maven 3.9.11
+
+---
+
+## 📌 Useful Commands
+
+* Install dependencies:
 
 ```bash
 mvn install
 ```
 
-* Compiler :
+* Build the project:
 
 ```bash
 mvn package
 ```
 
-* Lancer les tests :
+* Run the tests:
 
 ```bash
 mvn test
 ```
 
-* Lancer le programme (main dans `Plc.java`) :
+* Run the program (main method in `Plc.java`):
 
 ```bash
-Exécuter simplement depuis l'IDE (Visual Studio Code dans mon cas)
+Simply run it from your IDE (Visual Studio Code in my case)
 ```
